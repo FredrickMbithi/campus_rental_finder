@@ -122,18 +122,21 @@ body {
 .input-group input:focus {
     border-color: #55a630;
     /* fresh green */
-    box-shadow: 0 0 5px rgba(85, 166, 48, 0.3);
+
 }
 
 /* Forgot password */
 .forgot {
     font-size: 0.8rem;
-    color: #2d6a4f;
-    text-decoration: none;
-}
+    color: #0f653e;
+    box-shadow: 0 0 5px rgba(85, 166, 48, 0.3);
+    margin-left: 230px;
+} 
 
 .forgot:hover {
     text-decoration: underline;
+    margin-left: 100px;
+    /* pushes the link 100px to the right */
 }
 
 /* Sign in button */
